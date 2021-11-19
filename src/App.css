@@ -1,5 +1,5 @@
 #body {
-    background-color: grey;
+    background-color: white;
 }
 
 #profilepic {
@@ -7,7 +7,7 @@
 }
 
 .footer {
-    background-color: aqua;
+    background-color: lightgray;
 }
 
 .footer-text {
@@ -15,5 +15,6 @@
 }
 
 .nav {
-    background-color: aqua;
+    background-color: lightgray;
 }
+

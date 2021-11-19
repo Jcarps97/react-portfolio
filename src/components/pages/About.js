@@ -5,7 +5,7 @@ import '../../App.css'
 
 export default function About() {
   return (
-    <div id="body">
+    <div className="aboutme" id="body">
        <div>
           <img src={profilepic} id="profilepic" alt="profile pic"></img>
        </div>
