@@ -1,21 +1,20 @@
 import React from 'react';
+import profilepic from '../../images/picture.jpg'
+import '../../App.css'
+
 
 export default function About() {
   return (
-    <div>
-      <h1>About Me</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
-      </p>
+    <div id="aboutme">
+       <div>
+          <img src={profilepic} id="profilepic" alt="profile pic"></img>
+       </div>
+      <div>
+        <h1>About Me</h1>
+        <p>
+        Hello! My name is Jack and I'm studying to become a web developer! I grew up in Edina, MN and went to college at U of Missouri-Colubmia for a bachelor's degree in Anthropology. After graduating I realized I would need more skills to get a good career so I took up a bootcamp to become a webdeveloper. Please enjoy my work and I would appreciate your future consideration!
+        </p>
+      </div>
     </div>
   );
 }
