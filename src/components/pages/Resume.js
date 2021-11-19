@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Resume() {
   return (
-    <div>
+    <div id="body">
       <h1>Resume</h1>
       <div>
       <a href="https://docs.google.com/document/d/1iO3EfGmrGhlsWjHuu5EBloQbVlA3bySjNx0ZOL9K-JA/edit?usp=sharing" target="">

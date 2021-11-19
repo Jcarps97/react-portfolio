@@ -8,7 +8,7 @@ import weather from '../../images/weather.png'
 
 export default function Portfolio() {
   return (
-    <div>
+    <div id="body">
       <h1>Portfolio</h1>
       <div className="card m-2" style={{width: "18rem"}}>
             <img src={pet} className="card-img-top" alt="pet tracker app" />
